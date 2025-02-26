@@ -27,15 +27,5 @@ El día de hoy 25 de Febrero de 2025 se genero el versionado de este proyecto en
     <li>git branch -M main --> Para cambiar la rama master a que sea rama main</li>
     <li>git push -u origin main --> Para descargar los archivos a Github</li>
 </ol>
-        
-        
-        
-        
-    
-        
-        
-        
-         
-        
-        
+
 <br>
