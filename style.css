@@ -1,7 +1,11 @@
 
 body {
-    background-color: #000000;
-    color: #f6f6f6;
+    background-color: #443327;
+    color: #efdcab;
+}
+
+strong {
+    color: #d98324;
 }
 
 a {
