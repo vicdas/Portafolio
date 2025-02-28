@@ -6,6 +6,8 @@
 body {
     background-color: #443327;
     color: #efdcab;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 .titulo-destaque {
