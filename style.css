@@ -34,13 +34,23 @@ body {
 
 .presentacion__contenido__parrafo {
     font-size: 24px;
-    font-family: "Krona One", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .presentacion__enlace {
-    /* background-color: #22D4FD;
-    color: #000000;
-    */
     display: flex;
     justify-content: space-between;
+}
+
+.presentacion__enlace__link {
+    width: 280px;
+    background-color: #22D4FD;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
 }
