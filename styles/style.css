@@ -35,7 +35,7 @@ body {
 }
 
 .presentacion__contenido {
-  width: 615px;
+  width: 415px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -70,13 +70,13 @@ body {
 }
 
 .presentacion__enlace__link {
-  width: 378px;
+  width: 278px;
   text-align: center;
   padding: 21.5px 0px;
   border-radius: 8px;
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   color: #f6f6f6;
   border: 2px solid #22d4fd;
