@@ -1,13 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+:root {
+ --color-primario: #443327;
+ --color-secundario: #efdcab;
+ --color-terciario: #22d4fd;
+
+ --fuente-montserrat: "Montserrat", sans-serif;
+ --fuente-Krona: "Krona One", sans-serif;
+}
+
 * {
   padding: 0;
   margin: 0;
 }
 
 body {
-  background-color: #443327;
-  color: #efdcab;
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
   box-sizing: border-box;
 }
 
@@ -21,10 +30,10 @@ body {
 }
 
 .cabecera__menu__link {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--fuente-montserrat);
   font-size: 24px;
   font-weight: 600;
-  color: #22d4fd;
+  color: var(--color-terciario);
   text-decoration: none;
 }
 
@@ -44,7 +53,7 @@ body {
 
 .presentacion__contenido__titulo {
   font-size: 36px;
-  font-family: "Krona One", sans-serif;
+  font-family: var(--fuente-Krona);
 }
 
 .titulo-destaque {
@@ -53,7 +62,7 @@ body {
 
 .presentacion__contenido__parrafo {
   font-size: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--fuente-montserrat);
 }
 
 .presentacion__enlace {
@@ -65,7 +74,7 @@ body {
 }
 
 .presentacion__enlace__subtitulo {
-  font-family: "Krona One", sans-serif;
+  font-family: var(--fuente-Krona);
   font-size: 24px;
   font-weight: 400;
 }
@@ -75,12 +84,12 @@ body {
   text-align: center;
   padding: 21.5px 0px;
   border-radius: 8px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--fuente-montserrat);
   font-size: 24px;
   font-weight: 400;
   text-decoration: none;
   color: #f6f6f6;
-  border: 2px solid #22d4fd;
+  border: 2px solid var(--color-terciario);
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -91,11 +100,11 @@ body {
 }
 
 .pie {
-  background-color: #22d4fd;
+  background-color: var(--color-terciario);
   padding: 24px;
   color: #000000;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--fuente-montserrat);
   font-size: 24px;
   font-weight: 400;
 }
