@@ -34,7 +34,7 @@ body {
 
 .cabecera__menu__link {
   font-family: var(--fuente-montserrat);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--color-terciario);
   text-decoration: none;
@@ -55,7 +55,7 @@ body {
 }
 
 .presentacion__contenido__titulo {
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   font-family: var(--fuente-Krona);
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .presentacion__contenido__parrafo {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: var(--fuente-montserrat);
 }
 
@@ -78,7 +78,7 @@ body {
 
 .presentacion__enlace__subtitulo {
   font-family: var(--fuente-Krona);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
