@@ -133,6 +133,6 @@ body {
   }
 
   .presentacion__contenido {
-    width: auto;
+    width: 100%;
   }
 }
