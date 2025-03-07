@@ -118,6 +118,15 @@ body {
 }
 
 @media (max-width: 1200px) {
+
+  .cabecera {
+    padding: 10%;
+  }
+
+  .cabecera__menu {
+    justify-content: center;
+  }
+
   .presentacion {
     flex-direction: column-reverse;
   }
